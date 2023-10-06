@@ -11,7 +11,7 @@ function ForgotPassword() {
   const sendLink = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/api/sendpasswordlink", {
+    const res = await fetch("https://daillydresscolorsuggestion.onrender.com/api/sendpasswordlink", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
